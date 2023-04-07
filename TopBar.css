@@ -1,0 +1,152 @@
+html,
+body,
+img {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', 'Sans Serif';
+}
+
+
+.topbar_maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.topbar_popup {
+    width: 1440px;
+    height: 70px;
+    background: #B6F1F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.topbar_time-sale {
+    width: 257px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar_time-sale span {
+    text-align: left;
+    font: normal normal bold 18px/26px Noto Sans;
+    letter-spacing: 0.9px;
+    color: #212B6B;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.topbar_payment-details {
+    height: 36px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.topbar_payment-details span {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #212B6B;
+
+}
+
+.topbar_access-button {
+    margin-left: 26px;
+    width: 160px;
+    height: 40px;
+    background: #212B6B 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.topbar_access-button span {
+    font: normal normal 600 16px/22px Noto Sans;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+}
+
+
+    @media screen and (max-width: 400px){
+    .topbar_popup {
+        width: 360px;
+        height: 140px;
+        background: #B6F1F8 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .topbar_time-sale {
+        width: 249px;
+        height: 22px;
+        color: #212B6B;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .topbar_time-sale span {
+        text-align: center;
+        font: normal normal bold 16px/22px Noto Sans;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        opacity: 1;
+
+    }
+
+    .topbar_payment-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 33px;
+        margin-bottom: 11px;
+    }
+
+    .topbar_payment-details span {
+        font: normal normal bold 24px/33px Noto Sans;
+        letter-spacing: 0px;
+        color: #212B6B;
+        opacity: 1;
+        font: bold;
+
+    }
+
+    .topbar_access-button {
+        width: 180px;
+        height: 40px;
+        background: #212B6B 0% 0% no-repeat padding-box;
+        border-radius: 3px;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -2px;
+    }
+
+    .topbar_access-button span {
+        height: 22px;
+        text-align: center;
+        vertical-align: middle;
+        font: normal normal 600 16px/22px Noto Sans;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
+        opacity: 1;
+        display: flex;
+        text-align: center;
+    }
+
+    .earthday_button:hover {
+        text-decoration: none;
+        color: white;
+    }
+}
